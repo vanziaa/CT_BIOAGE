@@ -16,7 +16,7 @@ The model stores **43 input feature columns**, of which **37 have non-zero coeff
 | Required preprocessing | Apply the same median imputation and z-score normalization used during model training |
 | Output | Predicted CT-based biological age in years |
 
-> The model file does not contain the original preprocessing statistics. Raw CT features must not be passed directly to the model if reproducible predictions are required.
+>  Raw CT features must not be passed directly to the model if reproducible predictions are required.
 
 ## Minimal usage
 
